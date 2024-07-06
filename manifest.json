@@ -1,8 +1,9 @@
 {
     "manifest_version": 3,
-    "name": "Your Extension Name",
+    "name": "LiveMatch",
     "version": "1.0",
-    "description": "Description of your extension.",
+    "author":"Yatendra Rajput",
+    "description": "Chrome extension for live cricket match updates.",
     "icons": {
       "16": "icons/16.png",
       "128": "icons/128.png"
