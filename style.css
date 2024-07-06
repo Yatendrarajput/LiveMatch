@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+    min-width: 350px; /* Increased minimum width */
+}
+
+.extension-container {
+    width: 100%;
+    max-width: 500px; /* Match the max-width with the body width */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+p {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #333; /* Darker text color */
+    text-align: center;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the cards horizontally */
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.match-card {
+    background: linear-gradient(135deg, #5A639C 0%, #7776B3 100%); /* Cooler gradient background with preferred colors */
+    color: #fff; /* White text color */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, background 0.3s ease;
+    cursor: pointer;
+    overflow: hidden;
+    width: 90%; /* Ensures card takes up 90% of the container's width */
+    margin-bottom: 20px; /* Space between cards */
+    text-align: center;
+}
+
+.match-card:hover {
+    transform: translateY(-5px);
+    background: linear-gradient(135deg, #7776B3 0%, #5A639C 100%); /* Hover effect with reverse gradient */
+}
+
+.match-name {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 18px; /* Increased font size for match name */
+}
+
+.match-details {
+    display: none; /* Hidden by default */
+    margin-top: 10px;
+}
+
+.match-details.open {
+    display: block; /* Visible when opened */
+}
+
+.match-details div {
+    margin-bottom: 8px; /* Add spacing between details */
+}
+
+.match-details div:first-child {
+    font-weight: bold; /* Make the first detail item bold */
+}

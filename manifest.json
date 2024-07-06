@@ -1,0 +1,28 @@
+{
+    "manifest_version": 3,
+    "name": "Your Extension Name",
+    "version": "1.0",
+    "description": "Description of your extension.",
+    "icons": {
+      "16": "icons/16.png",
+      "128": "icons/128.png"
+    },
+    "action": {
+      "default_popup": "index.html",
+      "default_icon": {
+        "16": "icons/16.png",
+        "128": "icons/128.png"
+      }
+    },
+    "permissions": [
+      "storage",
+      "tabs"
+    ],
+    "web_accessible_resources": [
+      {
+        "resources": ["icons/*"],
+        "matches": ["<all_urls>"]
+      }
+    ]
+  }
+  
