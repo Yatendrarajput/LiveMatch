@@ -30,6 +30,10 @@ Once installed:
 
 - Click on the extension icon in the Chrome toolbar to view ongoing cricket matches.
 - Each match is displayed in a card format. Click on a card to expand and view detailed match information.
+
+
+![Extension Installation](https://drive.google.com/uc?id=14yXtYRbAmVHpNMVMWUZVHUq9cbjpiiqj)
+
 - Enjoy following your favorite cricket matches with real-time updates!
 
 ## Technologies Used
