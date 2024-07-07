@@ -1,10 +1,6 @@
-require('dotenv').config();
-
-
 async function getMatchData() {
     try {
-        const apiKey = process.env.CRICAPI_KEY; // Use environment variable
-        const response = await fetch(`https://api.cricapi.com/v1/currentMatches?apikey=${apiKey}&offset=0`);
+        const response = await fetch("your api");
         const data = await response.json();
 
         if (data.status !== "success") return;
